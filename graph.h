@@ -13,7 +13,7 @@
 class Graph{
 private:
   enum color_t {white, grey, black, nil};
-  std::map<int, std::vector<int>> vertices;
+  std::map<int, std::vector<int>>vertices;
   std::map<int, int> predecesor; //map for parent
   std::map<int, int> discover; //map for discover times
   std::map<int, int> finish; //map for finish times
