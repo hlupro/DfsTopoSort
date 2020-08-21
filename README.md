@@ -43,7 +43,7 @@ and create two loops that would find the longest time, print it out and then del
 #size of the graph? Be sure to vary the parameters enough to use the observations to answer the
 #next questions!
 
-For DPS, best and worst case will be O(V+E) where V and E are the number of vertices and edges in the graph. This is because DPSVisit is called in DPS V times and recursively called to explore every edge.
+For DFS, best and worst case will be O(V+E) where V and E are the number of vertices and edges in the graph. This is because DFSVisit is called in DFS V times and recursively called to explore every edge.
 
 TopologicalSort when the finishing times are inserted into a LinkedList also takes O(V+E) at best and worst case since it relies on DFS.
 
